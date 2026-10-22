@@ -10,6 +10,7 @@ npm run dev
 Use `npm run build` for a production bundle. Deploy the generated `dist` directory to Vercel or another static host. `vercel.json` provides an SPA rewrite for refresh/navigation.
 
 ## Deployment
+**GitHub repository:** https://github.com/RaghavD06/minicpu  
 **Deployed URL:** https://minicpi.vercel.app
 
 ## Mapping to Academic Concepts
@@ -23,3 +24,8 @@ Use `npm run build` for a production bundle. Deploy the generated `dist` directo
 `MOV Rn, immediate|Rn`, `ADD Rn, Rn`, `SUB Rn, Rn`, `LOAD Rn, address`, `STORE Rn, address`, `JMP address`, `CMP Rn, Rn`, and `HLT`. Registers are `R0`–`R7`; the CPU exposes PC, IR, Z/N/C flags, and sparse memory.
 
 Use the toolbar to load Arithmetic, Memory, or Invalid syntax demos. Invalid lines are traced but never reach the decoder or executor.
+
+## Submission reports
+
+- `REPORT_COA.md` — Computer Organization and Architecture report
+- `REPORT_FLAT.md` — Formal Language and Automata Theory report
